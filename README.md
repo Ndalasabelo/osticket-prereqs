@@ -29,13 +29,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
 <h2>Installation Steps</h2>
-
+Log into Azure and create a resource group, within it, create a virtual machine with at least 2 VCPUs and name it VM1 .
 <p>
 <img src="![Capture](https://github.com/user-attachments/assets/10447712-5386-4a03-898e-674b0671029b)
 " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
