@@ -50,6 +50,9 @@ Log into Azure and create a resource group, within it, create a virtual machine 
 </p>
 <p>
 We first need to enable IIS in Windows with CGI. Go to Control Panel> Program> Turn Windows features on or off> World Wide Web Services>Web Management Tools> IIS Management Console (tick the box). Also tick CGI and CommonHTTP Featuers. 
+
+![image](https://github.com/user-attachments/assets/4c47f0ef-7cb5-4de9-9083-e24bc562dc53)
+  
 Install PHPManagerForIIS_V1.5.0.msi, 
 Install Rewrite Module (rewrite_amd64_en-US.msi)
 Then create a file directory C:\PHP, then download PHP 7.3.8 (unzip and import contents into C:\PHP)
