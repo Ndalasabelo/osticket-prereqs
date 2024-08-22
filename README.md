@@ -39,12 +39,14 @@ Log into Azure and create a resource group, within it, create a virtual machine 
 " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+![Capture](https://github.com/user-attachments/assets/fdfd579d-c9d0-4bca-b56b-e8114baa432c)
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="![Capture](https://github.com/user-attachments/assets/f908e465-d1cc-440e-b034-2491685cd7d4)
+" height="80%" width="80%" alt=""/>
 </p>
 <p>
 We first need to enable IIS in Windows with CGI. Go to Control Panel> Program> Turn Windows features on or off> World Wide Web Services>Web Management Tools> IIS Management Console (tick the box). Also tick CGI and CommonHTTP Featuers. 
