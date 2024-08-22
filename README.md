@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
 <h2>Installation Steps</h2>
-Log into Azure and create a resource group, within it, create a virtual machine with at least 2 VCPUs and name it VM1.
+Log into Azure and create a resource group, within it, create a virtual machine with at least 2 VCPUs and name it VM1. Then after the creation of the virtual machine, log into it using Remote Desktop.
 
 
 <p>
