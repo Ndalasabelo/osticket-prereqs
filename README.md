@@ -33,7 +33,8 @@ Log into Azure and create a resource group, within it, create a virtual machine 
 
 
 
-<img src="![Capture]([![Capture jpg](https://github.com/user-attachments/assets/b897a71b-a078-468e-a5aa-db9be79c77c1)
+<img src="![Capture]([![Capture jpg](![Capture](https://github.com/user-attachments/assets/d1b33f14-c79f-4ee5-8dab-bea82efa694e)
+)
 ))
 " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
