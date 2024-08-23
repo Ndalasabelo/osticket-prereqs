@@ -31,39 +31,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 Log into Azure and create a resource group, within it, create a virtual machine with at least 2 VCPUs and name it VM1. Then after the creation of the virtual machine, log into it using Remote Desktop.
 
-
-
-<img src="![Capture]([![Capture jpg](![Capture](https://github.com/user-attachments/assets/d1b33f14-c79f-4ee5-8dab-bea82efa694e)
-)
-))
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="![Capture](https://github.com/user-attachments/assets/fdfd579d-c9d0-4bca-b56b-e8114baa432c)
-" height="80%" width="80%" alt=""/>
-</p>
-<br />
-
-<p>
-<img src="![Capture](https://github.com/user-attachments/assets/f908e465-d1cc-440e-b034-2491685cd7d4)
-" height="80%" width="80%" alt=""/>
-</p>
-<p>
 We first need to enable IIS in Windows with CGI. Go to Control Panel> Program> Turn Windows features on or off> World Wide Web Services>Web Management Tools> IIS Management Console (tick the box). Also tick CGI and CommonHTTP Featuers. 
 
 ![image](https://github.com/user-attachments/assets/4c47f0ef-7cb5-4de9-9083-e24bc562dc53)
   
-Install PHPManagerForIIS_V1.5.0.msi, 
-Install Rewrite Module (rewrite_amd64_en-US.msi)
-Then create a file directory C:\PHP, then download PHP 7.3.8 (unzip and import contents into C:\PHP)
-Now Install VC_redist.x86.exe, Typical Setup>Launch Configuration Wizard> Standard configuration.
-</p>
-<br />
+- Install PHPManagerForIIS_V1.5.0.msi, 
+- Install Rewrite Module (rewrite_amd64_en-US.msi)
+- Then create a file directory C:\PHP, then download PHP 7.3.8 (unzip and import contents into C:\PHP)
+- Now Install VC_redist.x86.exe, Typical Setup>Launch Configuration Wizard> Standard configuration.
 
-<p>
-<img src=""80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+Open IIS as an admin and register PHP from within IIS, and reload each time you make changes.
+- Install osTicket v1.15.8
+- Download osTicket from the Installation Files Folder
+- Extract and copy “upload” folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+- Go to sites -> Default -> osTicket
+- On the right, click “Browse *:80”
+
+Note that some extensions are not enabled
+- Go back to IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+- Click “Enable or disable an extension”
+ * Enable: php_imap.dll
+ * Enable: php_intl.dll
+ * Enable: php_opcache.dll
+- Refresh the osTicket site in your browse, observe the changes
+
+Rename: ost-config.php
+- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
