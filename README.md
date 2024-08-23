@@ -51,7 +51,7 @@ Reload IIS (Open IIS, Stop and Start the server)
 - Go to sites -> Default -> osTicket
 - On the right, click “Browse *:80”
 
-Note that some extensions are not enabled
+To enable some of the extensions
 - Go back to IIS, sites -> Default -> osTicket
 - Double-click PHP Manager
 - Click “Enable or disable an extension”
@@ -68,7 +68,24 @@ Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
 New Permissions -> Everyone -> All
 
+![image](https://github.com/user-attachments/assets/f54610df-4cf9-4bd0-b06b-f9b93a0a8eaf)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Procede to setting up osTicket in the browser
+
+Download and install HeidiSQL.
+- Open Heidi SQL
+- Create a new session, root/Password1
+- Connect to the session
+- Create a database called “osTicket”
+
+![image](https://github.com/user-attachments/assets/0e6bee27-b52c-485d-94a9-74757eb3b48d)
+
+
+Continue Setting up osticket in the browser
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: Password1
+- Click “Install Now!”
+
+Congratulations, you've now installed osTicket
+
