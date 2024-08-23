@@ -70,7 +70,7 @@ New Permissions -> Everyone -> All
 
 ![image](https://github.com/user-attachments/assets/f54610df-4cf9-4bd0-b06b-f9b93a0a8eaf)
 
-Procede to setting up osTicket in the browser
+Proceed to setting up osTicket in the browser
 
 Download and install HeidiSQL.
 - Open Heidi SQL
